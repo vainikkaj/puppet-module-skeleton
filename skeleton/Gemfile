@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# puppet 3.6.1 seems to require specific json-pure version
+gem 'json_pure', '1.8.0'
+
 group :test do
   gem "rake"
   gem "puppet", ENV['PUPPET_VERSION'] || '~> 3.4.0'

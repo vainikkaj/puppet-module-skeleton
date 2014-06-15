@@ -110,7 +110,7 @@ GEM
     inifile (2.0.2)
     ipaddress (0.8.0)
     json (1.8.1)
-    json_pure (1.8.1)
+    json_pure (1.8.0)
     jwt (1.0.0)
     launchy (2.4.2)
       addressable (~> 2.3)
@@ -229,6 +229,7 @@ DEPENDENCIES
   beaker
   beaker-rspec
   guard-rake
+  json_pure (= 1.8.0)
   puppet (~> 3.4.0)
   puppet-blacksmith
   puppet-lint
